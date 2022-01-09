@@ -65,8 +65,7 @@ export const Formulario = ({
         objetoPacientes.id = generateId();
         setPacientes([...pacientes, objetoPacientes]);
       }
-      // console.log(objetoPacientes);
-
+      
       //resetear el formulario a vacio
       setNombre("");
       setPropietario("");
