@@ -14,8 +14,6 @@ export const Formulario = ({
   const [sintomas, setSintomas] = useState("");
   const [error, setError] = useState(false);
 
- 
-
   useEffect(() => {
     if (Object.keys(pacientes).length > 0) {
       setNombre(paciente.nombre);
